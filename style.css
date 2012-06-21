@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('MuseoSans.ttf') format('truetype');
+}
+ 
+body {
+    max-width: 50em;
+    padding: 2em 4em;
+    margin: 0;
+    font-family: MuseoSans, arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: right;
+    margin: 1em 0;
+    border-bottom: 1px solid silver;
+    color: #810;
+    font-weight: normal;
+}
+
+h1 { font-size: 23pt; }
+h2 { font-size: 17pt; margin-top: 2em; }
+p { font-size: 12pt; }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 1em;
+}
+
+li:before {
+    content: "▸";
+    color: #810;
+    padding: 0 1em;
+    margin: 0;
+}
+
+a, a:link, a:visited {
+    color: #038;
+    text-decoration: none;
+}
+
+p.next:before {
+    content: "➤";
+    padding-right: .5em;
+    color: #810;
+    font-size: 120%;
+    vertical-align: middle;
+}
+
+p.foot {
+    text-align: right;
+    margin-top: 6em;
+}
