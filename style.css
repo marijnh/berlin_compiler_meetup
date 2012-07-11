@@ -25,14 +25,17 @@ p { font-size: 12pt; }
 ul {
     list-style: none;
     margin: 0;
-    padding: 0 1em;
+    padding: 0 3em;
 }
 
 li:before {
     content: "▸";
+    width: 1.5em;
+    display: inline-block;
     color: #810;
-    padding: 0 1em;
+    padding: 0;
     margin: 0;
+    margin-left: -1.5em;
 }
 
 a, a:link, a:visited {
